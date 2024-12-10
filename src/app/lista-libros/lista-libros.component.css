@@ -1,0 +1,135 @@
+/* Fondo general inspirado en Dragon Ball */
+body {
+    background-image: url('/img/imagenFondo.jpg'); /* Imagen de fondo temática */
+    background-size: cover; /* Cubrir toda la pantalla */
+    background-position: center; /* Centrar la imagen */
+    color: #fff; /* Texto en blanco */
+    font-family: 'Saiyan Sans', Arial, sans-serif; /* Tipografía alusiva */
+    padding-bottom: 3rem; /* Espacio inferior */
+}
+
+/* Contenedor principal con fondo semi-transparente */
+.container {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro translúcido */
+    padding: 2rem; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.8); /* Resplandor naranja */
+    margin-bottom: 3rem;
+}
+
+/* Sombras llamativas para los encabezados */
+h1, h2 {
+    text-shadow: 3px 3px 5px rgba(255, 165, 0, 0.9); /* Sombra naranja brillante */
+    text-align: center;
+}
+
+/* Kanji del logo */
+#kanji {
+    border-radius: 50%; /* Forma redonda */
+    width: 8rem; /* Ajusta el tamaño */
+    border: 3px solid #ff9f00; /* Borde naranja brillante */
+}
+
+/* Botones principales con estilos únicos para cada saga */
+button {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición fluida */
+}
+
+/* Estilo para el botón "Todos" */
+#TodoButton {
+    background-color: black; /* Fondo sólido */
+    color: white;
+    border: 2px solid #ff9f00; /* Borde naranja */
+    width: 175px;
+    height: 84px;
+    font-size: 16px;
+    border-radius: 5px; /* Bordes redondeados */
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8); /* Sombra clara */
+}
+
+#TodoButton:hover {
+    transform: scale(1.1); /* Agrandamiento */
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.8); /* Brillo naranja */
+}
+
+/* Estilo dinámico para los botones de cada saga */
+#SaiyanButton, #FreezerButton, #CellButton, #BuuButton {
+    background-size: cover;
+    background-position: center;
+    width: 175px;
+    height: 84px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra negra */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Estilo por saga */
+#SaiyanButton {
+    background-image: url('/img/VegetaSaga.jpg');
+    background-size: 23rem 19rem;
+    background-position: 51% -125px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.7); /* Resplandor azul */
+}
+
+#FreezerButton {
+    background-image: url('/img/FreezerSaga.jpg');
+    background-size: 19rem 20rem;
+    background-position: 50% -124px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); /* Resplandor rojo */
+}
+
+#CellButton {
+    background-image: url('/img/CellSaga.jpg');
+    background-size: 31rem 37rem;
+    background-position: 50% -244px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Resplandor verde */
+}
+
+#BuuButton {
+    background-image: url('/img/BuuSaga.jpg');
+    background-size: 51rem 57rem;
+    background-position: 58% -223px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.7); /* Resplandor rosado */
+}
+
+/* Efectos hover */
+#SaiyanButton:hover{
+    background-image: url('/img/ozaruVegeta.JPG');
+    background-size: 23rem 19rem;
+    background-position: 51% -125px;
+    
+}
+
+#FreezerButton:hover{
+    background-image: url('/img/freezer100.jpg');
+    background-size: 44rem 73rem;
+    background-position: 66% -92rem;
+}
+
+#CellButton:hover{
+    background-image: url('/img/cellPerfe.jpg');
+    background-size: 12rem 11rem;
+    background-position: 54% -232rem;
+}
+
+#BuuButton:hover{
+    background-image: url('/img/superBuu.webp');
+    background-size: 25rem 74rem;
+    background-position: 70% -226rem;
+} 
+
+#SaiyanButton:hover,
+#FreezerButton:hover,
+#CellButton:hover,
+#BuuButton:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Brillo blanco */
+}

@@ -1,0 +1,40 @@
+<!-- lista-libros.component.html -->
+<body>
+    <div class="container text-center">
+        <header class="my-5">
+            <h1 class="display-4 text-warning">Escoge tu historia prefererida de cada saga</h1>
+        </header>
+  
+        <div class="my-5">
+            <h2 class="text-warning">Sagas</h2>
+            <div class="btn-group mb-3" role="group" aria-label="Secciones de Libros">
+                <button id="TodoButton" class="btn btn-primary" (click)="cargarDatos('Todos')"><h3>Todos</h3></button>
+                <button id="SaiyanButton" class="btn btn-success" (click)="cargarDatos('Saga Saiyan')"></button>
+                <button id="FreezerButton" class="btn btn-danger" (click)="cargarDatos('Saga Freezer')"></button>
+                <button id="CellButton" class="btn btn-info" (click)="cargarDatos('Saga Cell')"></button>
+                <button id="BuuButton" class="btn btn-warning" (click)="cargarDatos('Saga Buu')"></button>
+            </div>
+  
+            <div *ngIf="items.length > 0; else cargando" class="mt-4">
+                <h2 class="text-light">{{titulo}}</h2>
+                <ul class="list-group">
+                    <li *ngFor="let item of items" (click)="libroSeleccionado(item)" class="list-group-item list-group-item-action">
+                        <p><strong>Titulo: </strong> {{ item.titulo }}</p>
+                    </li>
+                </ul>
+            </div>
+  
+            <ng-template #cargando>
+                <p class="text-light">Cargando datos...</p>
+            </ng-template>
+  
+            <app-detalle-libros></app-detalle-libros>  <!-- Asegúrate de agregar el componente hijo aquí -->
+        
+            <div class="my-5">
+              <h2 class="text-warning">¡Explora y disfruta!</h2>
+              <p class="text-light">Sumérgete en las aventuras de Dragon Ball y descubre historias épicas.</p>
+              <img id="kanji" src="img/kanji.png" alt="Dragon Ball Logo" class="img-fluid my-3" />
+            </div>
+        </div>
+    </div>
+  </body>

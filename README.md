@@ -1,27 +1,35 @@
-# ProyectoAngularMsM
+# 📚 CatalogoDragonBallMsM
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+**CatalogoDragonBallMsM** es un proyecto inspirado en el universo de *Dragon Ball*, creado en Angola. Esta librería temática ofrece una página principal y un apartado con libros organizados según las sagas de la serie. Además, permite explorar en detalle cada libro disponible.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Características
 
-## Code scaffolding
+- **Página principal**: Un diseño atractivo inspirado en el universo de *Dragon Ball*.
+- **Secciones temáticas**: Los libros están organizados por sagas (Saiyan, Freezer, Cell, Majin Boo, entre otras).
+- **Vista de detalles**: Cada libro tiene una página dedicada con información detallada como:
+  - Título
+  - Autor
+  - Descripción
+  - Imágenes y más.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🛠️ Tecnologías Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- HTML, CSS, JavaScript
+- JSON Serve
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📖 Instalación
 
-## Running end-to-end tests
+Sigue los pasos para clonar e iniciar el proyecto en tu máquina local:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Clona este repositorio:
+- git clone https://github.com/tu-usuario/CatalogoDragonBallMsM.git
+- cd CatalogoDragonBallMsM
+- npm install
+- npm serve
+- json-server --watch db.json
+- http://localhost:4200

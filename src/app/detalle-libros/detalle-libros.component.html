@@ -1,0 +1,22 @@
+<div *ngIf="libro; else noSeleccionado" class="d-flex justify-content-center align-items-center mt-5">
+    <div class="capsule-card">
+      <div class="capsule-header">
+        <img src="{{libro.imagen}}" alt="Imagen del libro" class="capsule-img">
+      </div>
+      <div class="capsule-body">
+        <h5 class="capsule-title">{{libro.titulo}}</h5>
+        <p class="capsule-text">Capítulo: {{libro.capitulo}}</p>
+        <p class="capsule-text">Publicación: {{libro.publicacion}}</p>
+        <a href="#" class="capsule-button">Precio: {{libro.precio}}</a>
+      </div>
+    </div>
+    
+    
+  </div>
+  
+  <ng-template #noSeleccionado>
+    <div class="d-flex justify-content-center align-items-center mt-5">
+      <p>Por favor, selecciona un libro para ver los detalles.</p>
+    </div>
+  </ng-template>
+  

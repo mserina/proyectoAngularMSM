@@ -1,0 +1,30 @@
+body {
+    background-image: url('/img/imagenFondo.jpg'); /* Fondo de Dragon Ball */
+    background-size: cover; /* Cubrir toda la pantalla */
+    background-position: center; /* Centrar la imagen */
+    color: #fff; /* Color de texto blanco */
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente para el contenedor */
+    padding: 2rem; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra de texto */
+}
+
+.img-fluid {
+    border: 5px solid #ffcc00; /* Borde dorado alrededor de las imágenes */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para las imágenes */
+}
+
+#kanji{
+    border-radius: 22rem;
+    width: 8rem;
+}

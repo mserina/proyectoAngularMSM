@@ -1,0 +1,77 @@
+{
+    "libros": [
+      {
+        "id": 1,
+        "titulo": "La llegada de Raditz",
+        "saga": "Saga Saiyan",
+        "capitulo": "Capítulo 1",
+        "publicacion": "1989-11-26",
+        "imagen": "img/cap1.jpg",
+        "precio": 9.99
+      },
+      {
+        "id": 2,
+        "titulo": "La lucha contra Vegeta",
+        "saga": "Saga Saiyan",
+        "capitulo": "Capítulo 2",
+        "publicacion": "1990-02-07",
+        "imagen": "img/cap2.jpg",
+        "precio": 12.99
+      },
+      {
+        "id": 3,
+        "titulo": "La aparición de Freezer",
+        "saga": "Saga Freezer",
+        "capitulo": "Capítulo 3",
+        "publicacion": "1990-07-10",
+        "imagen": "img/cap3.webp",
+        "precio": 14.99
+      },
+      {
+        "id": 4,
+        "titulo": "La transformación de Goku",
+        "saga": "Saga Freezer",
+        "capitulo": "Capítulo 4",
+        "publicacion": "1990-12-17",
+        "imagen": "img/cap4.jpg",
+        "precio": 15.99
+      },
+      {
+        "id": 5,
+        "titulo": "El regreso de Cell",
+        "saga": "Saga Cell",
+        "capitulo": "Capítulo 5",
+        "publicacion": "1991-08-03",
+        "imagen": "img/cap5.webp",
+        "precio": 13.99
+      },
+      {
+        "id": 6,
+        "titulo": "El sacrificio de Gohan",
+        "saga": "Saga Cell",
+        "capitulo": "Capítulo 6",
+        "publicacion": "1991-11-19",
+        "imagen": "img/cap6.webp",
+        "precio": 16.99
+      },
+      {
+        "id": 7,
+        "titulo": "Majin Boo despierta",
+        "saga": "Saga Buu",
+        "capitulo": "Capítulo 7",
+        "publicacion": "1992-05-12",
+        "imagen": "img/cap7.webp",
+        "precio": 17.99
+      },
+      {
+        "id": 8,
+        "titulo": "La fusión de Gotenks",
+        "saga": "Saga Buu",
+        "capitulo": "Capítulo 8",
+        "publicacion": "1992-10-22",
+        "imagen": "img/cap8.webp",
+        "precio": 18.99
+      }
+    ]
+  }
+  
